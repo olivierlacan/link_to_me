@@ -1,5 +1,11 @@
 # LinkToMe
 
+> :warning: Guess what?! You no longer need link_to_me if you use Rails 7.0.x or newer, it was [merged in as a feature][merged] on September 21st, 2021! 
+> 
+> As a consequence I will no longer be maintaining this gem, but feel free to use try it in older versions of Rails but please note I haven't tested it on any version prior to Rails 7, and it therefore may not be compatible.
+
+[merged]: https://github.com/rails/rails/pull/42234
+
 Extend Rails Action View's `link_to` to allow it to autolink any
 Active Record model instances with a GET url.
 
